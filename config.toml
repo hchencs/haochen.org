@@ -32,6 +32,12 @@ prefix = ""
 # If author isn't empty, then highlight him/her in the author list.
 author = "Chen, Hao"
 
+[extra.publication.title]
+# If a title is the empty string, then the section won't be printed.
+article = "Peer-reviewed articles"
+inbook = "Book chapters"
+preprint = ""
+
 [[extra.menu]]
 name = "Publications"
 url = "/publications/"
@@ -50,7 +56,7 @@ icon = "ai ai-google-scholar"
 [[extra.social]]
 name = "ORCID"
 url = "https://orcid.org/0000-0002-4072-0710"
-icon = "ai ai-orcid" 
+icon = "ai ai-orcid"
 
 # </customize>
 
